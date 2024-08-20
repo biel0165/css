@@ -1,0 +1,142 @@
+/*+============
+      Css Reset
+=============*/
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+
+    /*+============
+      Formatação geral
+=============*/
+
+html {
+    font-size: calc(12px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+}
+
+html body a{
+text-decoration: none;
+color: #21243d;
+
+}
+main {
+      margin: 0 20vw 0 20vw;
+}
+
+   /*+============
+      formatação da página
+=============*/
+
+header {
+      margin: 0 5vw 3vw 5vw; /*atribui espaço*/
+}
+header nav ul{
+display:flex; 
+ justify-content: right;
+
+}
+
+header nav ul li{
+margin: 1vw 10px 0 10px;
+
+}
+
+header nav ul li.atual a{
+      color: #ff6464;
+}
+/*=============
+formatação do works
+=============*/
+
+
+main.works h1 {
+      font-weight: normal;
+      margin: 0 0 2vw 0;    /* Margin serve para o espaçamento com oque ta fora*/
+}
+main.works section {
+      border-bottom: 1px solid #e0e0e0;
+      padding: 2vw 0 2vw 0;
+}
+main.works section:last-child {
+      border: none;
+}
+main.works section p {
+      margin: 1vw 0 1vw 0;
+}
+main.works section p span {
+      color: white;
+      background-color: #ff6464;
+      border-radius: 34px  ;  /* borda do span*/
+      padding: 2px 7px 2px 7px; /* padding serve para o espaçamento com oque esta dentro*/
+      font-weight: bold;
+}
+
+/*=============
+formatação home page
+=============*/
+section.banner{
+      display: flex;
+      margin: 6vw 0 3vw 0;
+}
+section.banner h1 {
+      font-size: 2rem;
+}
+section.banner p {
+      margin: 3vw 0 3vw 0;
+}
+section.banner button{
+      background-color: #ff6464;
+      color: white;
+      padding: 0.5vw 1vw 0.5vw 1vw;
+      font-size: 0.6rem;
+      border: none;
+}
+section.rt-post{
+      background-color: #edf7fa;
+      padding: 1vw 3vw 1vw 3vw;
+}
+section.rt-post h2 {
+      font-weight: normal;
+      margin: 0 0 2vw 0;
+}
+section.rt-post ul {
+      display: flex;
+}
+section.rt-post ul li {
+      background-color: white;
+      padding: 15px 10px 15px 10px ;
+      margin: 0 3vw 0 0;
+}
+section.rt-post ul :last-child {
+      margin: 0;
+}
+section.rt-post ul li p {
+      margin: 1.5vw 0 1.5vw 0;
+}
+
+/*=============
+formatação de rodapé
+=============*/
+
+footer {
+      text-align: center; /*centraliza o texto do rodapé*/
+      padding: 1vw 0 2vw 0 ; /*espaçamento do rodapé*/
+}
+footer nav ul {
+      display: flex; /* coloca os elementos um ao lado do outro*/ 
+      justify-content: center; /* alinha os ícones*/
+}
+footer nav ul li {
+      margin: 0 5px 5px 5px;
+      font-size: 2rem;
+}
+footer nav ul li a span {
+      color: #21243d;
+}
