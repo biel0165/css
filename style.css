@@ -143,8 +143,12 @@ section.ft-works  p span {
 section.ft-works div p {
       margin: 0 0 2vw 0;
       font-weight: 100;
+      
+}
+section.ft-works div p.biel {
       color: #8695A4;
 }
+
 
 /*=============
 formatação de rodapé
